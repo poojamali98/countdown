@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(245, 214, 174);
+    padding-top: 120px;
+}
+.watch{
+    width:800px;
+    height: 500px;
+    border: 4px solid rgb(139, 0, 0);
+    margin: auto;
+    padding: 25px 25px 25px 35px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 30px;
+   
+   
+}
+.controls{
+    padding-top: 60px;
+    font-size: 500px;
+    display:flex;
+    gap:20px;
+    justify-content: space-evenly;
+   
+
+}
+.time{
+   font-size: 200px;
+   
+}
+
+#start{
+    border-radius: 10px;
+    background-color:rgb(250, 167, 122);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    transition: 0.5rem;
+
+}
+#stop{
+    border-radius: 10px;
+    background-color:rgb(250, 167, 122);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    transition: 0.5rem;
+
+}
+#reset{
+    border-radius: 10px;
+    background-color:rgb(250, 167, 122);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    transition: 0.5rem;
+
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    background-color:gray;
+}
